@@ -1,0 +1,154 @@
+@media(max-width: 1200px) {
+    .popular-head button {
+        padding: 4px 12px;
+    }
+    .second-slider .carousel-indicators {
+        left: 174px;
+    }
+    .reviews .buttons button {
+        padding: 5px 13px;
+    }
+    .owl-prv,
+    .owl-nxt {
+        top: 28px;
+    }
+}
+
+@media(max-width:992px) {
+    header {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        background: #e56803;
+        margin-left: auto;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        margin-left: 30%;
+        padding: 5px 0;
+        margin-bottom: 5px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /* second slider */
+    .second-slider .carousel-indicators {
+        left: 113px;
+    }
+    .second-slider .box h3 {
+        font-size: 16px;
+    }
+    .second-slider .box {
+        top: -3%;
+    }
+    .left-video h2::before,
+    .left-video h2::after,
+    .reviews h2::before,
+    .reviews h2::after,
+    .news h2::before,
+    .news h2::after {
+        width: 0;
+    }
+    .reviews h2 {
+        padding-left: 0;
+    }
+    .left-video h2 {
+        text-align: start;
+    }
+    .news h2 {
+        padding-left: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 5px 13px;
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+    .slider .carousel-caption {
+        top: 13%;
+    }
+    .slider .carousel-caption p::before,
+    .slider .carousel-caption p::after {
+        width: 0;
+    }
+    .news .news-con .num-box {
+        right: 21px;
+        top: 32px;
+    }
+    .video-con img {
+        width: 80%;
+    }
+    .s-rev {}
+    .small-review img {
+        margin-bottom: 18px;
+    }
+    .s-rev {
+        flex-direction: column;
+        display: initial;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .small-review .s-r-img h5 {
+        position: absolute;
+        top: 0px;
+        left: 39px;
+    }
+    .owl-prv,
+    .owl-nxt {
+        top: 28px;
+    }
+}
+
+@media(max-width:768px) {
+    .media-q {
+        padding-right: 26px;
+    }
+    .article-body .article-con {
+        margin-bottom: 20px;
+    }
+    .l-video {
+        margin-bottom: 20px;
+    }
+    .small-review .s-r-img h5 {
+        left: 177px;
+    }
+    .news .news-con {
+        margin-top: 5px;
+        position: relative;
+    }
+    .second-slider .carousel-indicators {
+        left: 334px;
+    }
+    .right-porsion {
+        border-left: 0;
+    }
+    .second-slider .carousel-indicators {
+        left: 117px;
+    }
+    .small-review .s-r-img h5 {
+        left: 36px;
+    }
+}
+
+@media(max-width: 767px) {
+    .small-review .s-r-img h5 {
+        left: 177px;
+    }
+    .second-slider .carousel-indicators {
+        left: 333px;
+    }
+    .about-rehab {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width:441px) {
+    .second-slider .carousel-indicators {
+        left: 233px;
+    }
+}
+
+@media(max-width:320px) {
+    .second-slider .carousel-indicators {
+        left: 176px;
+    }
+}
